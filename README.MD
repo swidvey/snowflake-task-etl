@@ -39,8 +39,9 @@ Note: Creating AWS to SF integration is not shown here. Step 1 shows
 FROM @UTIL_DB.PUBLIC.user/USER_INFO/ which is the named external stage 
 that references an external location. In Snowflake this can be Amazon S3, 
 Google Cloud Storage, or Microsoft Azure.
-More information on this can be found here: <a href="https://docs.snowflake.com/en/sql-reference/sql/copy-into-table.html" title="Snowflake Copy">Snowflake Copy</a>
+More information on this can be found here: 
 ```
+<a href="https://docs.snowflake.com/en/sql-reference/sql/copy-into-table.html" title="Snowflake Copy">Snowflake Copy</a>
 ______________________________________________________________________
 ______________________________________________________________________
 ### Input Data Example
