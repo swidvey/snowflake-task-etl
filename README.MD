@@ -22,7 +22,7 @@ snowflake_task_etl.sql:
 ```
 ______________________________________________________________________
 ______________________________________________________________________
-### Step
+### Steps
 ```
 1. Use DDL.sql to create database, schema, stage table, and main table
 2. Use snowflake_task_etl.sql
