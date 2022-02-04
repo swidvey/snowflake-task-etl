@@ -20,7 +20,21 @@ ddl.sql:
 snowflake_task_etl.sql:
     Shows how to create file format, drop tasks, and create tasks.
 ```
+______________________________________________________________________
+______________________________________________________________________
+### Step
+```
+1. Use DDL.sql to create database, schema, stage table, and main table
+2. Use snowflake_task_etl.sql
+    a. Create File format
+    b. Create AWS to SF integration (not shown here)
+    c. Run autimation steps 1 copy to stage table
+    d. Run autimation steps 2 insert into main table
+    e. Run autimation steps 3 delete rows in stage table
+    f. Run autimation steps 4 Alter tasks to resume
 
+That's it. 
+```
 ______________________________________________________________________
 ______________________________________________________________________
 ### Input Data Example
