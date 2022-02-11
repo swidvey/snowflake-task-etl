@@ -28,7 +28,7 @@ DROP TASK USER_DATA.PUBLIC.USER_INFO_3_delete_stage_data;
 ------------------------------------------------------------------------
 -- Create File Format
 CREATE OR REPLACE FILE FORMAT USER_DATA.PUBLIC.USER_INFO 
-    SET COMPRESSION = 'GZIP' 
+    COMPRESSION = 'GZIP' 
     FIELD_DELIMITER = '\t' 
     RECORD_DELIMITER = '\n' 
     SKIP_HEADER = 1 
